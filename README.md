@@ -13,7 +13,9 @@ npm install
 npm run dev
 
 add .env on your folder and name the enviormental variable as VITE_API_KEY = your api key
+
 thats all 
+
 *only name the env as VITE_API_KEY unless it not will work
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
