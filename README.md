@@ -2,8 +2,11 @@
 paste the link on https://spotify-song-downloader.netlify.app/ and download
 
 React + Vite 
+
 tailwind css
+
 rapid api
+
 get the api from here https://rapidapi.com/amiteshgupta/api/spotify-downloader9
 
 git clone https://github.com/Devp-sriram/spotify-song-downloader-
