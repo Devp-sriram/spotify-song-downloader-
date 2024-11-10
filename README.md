@@ -1,5 +1,5 @@
 # Spotify song downloader
-paste the link https://spotify-song-downloader.netlify.app/ and download
+paste the link on https://spotify-song-downloader.netlify.app/ and download
 
 React + Vite 
 tailwind css
