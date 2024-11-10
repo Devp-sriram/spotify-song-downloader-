@@ -47,7 +47,8 @@ function App() {
       <div className="w-full flex flex-col justify-center items-center text-xl gap-2 font-bold">
         <FaSpotify  color='green' size={80}/>
         <p className = 'text-2xl'> Spotify song downloader </p>
-        <input type='url' value = {url} onChange={handleUrl} className="h-8 w-9/12 border-none outline-none rounded"/>
+        <label>Paste the song link below</label>
+        <input type='url' value = {url} onChange={handleUrl} className="h-8 w-1/2 border-none outline-none rounded"/>
         <button type='submit' onClick={downloadSong} className="px-2 border-solid border-gray-700 border-2 rounded hover:bg-gray-600 hover:text-black">Download</button>
         {urlCheck && <p className='px-2 text-white bg-red-400 rounded '>{urlCheck}</p>}
       </div>
