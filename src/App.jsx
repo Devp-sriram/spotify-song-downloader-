@@ -29,11 +29,11 @@ function App() {
         try {
           const response = await axios.request(options);
           console.log(response.data);
-          window.Location.href = response.data.downloadLink
-          if(response.success === true){
+          if(response.data.success === true){
+              window.location.href = response.data.data.downloadLink
               setUrl('')
           }else{
-               setUrlChecK(response.message)
+               setUrlChecK(response.data.message)
           }
           
         } catch (error){ 
