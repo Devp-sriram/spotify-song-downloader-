@@ -30,11 +30,11 @@ function App() {
           const response = await axios.request(options);
           console.log(response.data);
 
-          if(response.data.success === true){
+          if(response.success === true){
               window.Location.href = response.data.downLoadLink
               setUrl('')
           }else{
-               setUrlChecK(response.data.message)
+               setUrlChecK(response.message)
           }
           
         } catch (error){ 
