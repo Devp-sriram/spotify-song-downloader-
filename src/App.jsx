@@ -31,7 +31,7 @@ function App() {
           console.log(response.data);
 
           if(response.success === true){
-              window.Location.href = response.data.downLoadLink
+              window.Location.href = response.data.downloadLink
               setUrl('')
           }else{
                setUrlChecK(response.message)
